@@ -1,0 +1,14 @@
+html {
+    background: url(assets/IMG_1035-1.JPG);
+  
+
+}
+
+.body {
+    background-color: white;
+    color: gray;
+    width: 900px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2em;
+}

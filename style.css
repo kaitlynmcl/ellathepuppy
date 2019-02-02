@@ -1,14 +1,21 @@
-html {
-    background: url(assets/IMG_1035-1.JPG);
-  
-
-}
-
 .body {
     background-color: white;
-    color: gray;
-    width: 900px;
+    color: #202020;
     margin: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 2em;
+    font-family:'Prata', serif;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+
+.display-4 {
+    font-size: 3rem;
+    margin-top: -1%;
+    margin-bottom: 0;
+}
+
+.intro {
+    font-size: 1rem;
 }

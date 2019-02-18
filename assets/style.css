@@ -1,12 +1,25 @@
 .jumbotron {
     text-align: center;
     font-family: 'Libre Baskerville', serif;
+    color: #595959;
     background-color: white;
     margin-bottom: -3%;
 }
 
-.row {
+#banner {
     margin-left: 5.5%;
+}
+
+#icon {
+    margin-bottom: -2.5%;
+}
+
+.col-sm-4 {
+    padding: 1%;
+}
+
+.sqimages {
+    margin-left: 2%;
 }
 
 .slick-prev,

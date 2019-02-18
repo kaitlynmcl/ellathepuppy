@@ -1,1 +1,91 @@
-/*  */
+.jumbotron {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    background-color: white;
+    margin-bottom: -3%;
+}
+
+.row {
+    margin-left: 5%;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 40px; 
+    line-height: 1; 
+    -webkit-animation:colorchange 20s infinite alternate;
+    opacity: 0.75; 
+    background: transparent; 
+    border-style: none;  
+    position: absolute;
+	display: block;
+	width: 60px;
+	height: 100px;
+    cursor: pointer;
+	background: transparent;
+	top: 50%;
+	margin-top: -45px;
+	border: none;
+	z-index: 2;
+} 
+
+.slick-next {
+	right: -7px;
+	right: -0.7rem;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+  
+      color:#6495ed;
+    }
+  
+    10% {
+  
+      color:#64edbc;
+    }
+  
+    20% {
+  
+      color:#ed6495;
+    }
+  
+    30% {
+  
+      color:#edbc64;
+    }
+
+    40% {
+
+    color: #daed64;
+    }
+    
+    50% {
+    
+    color: #ed7864;
+    }
+    
+    60% {
+    
+    color:#64daed;
+    }
+    
+    70% {
+    
+    color:#FFC107;
+    }
+      
+    80% {
+    
+    color: #647eed;
+    }
+    
+    90% {
+    
+    color: #D98880;
+    }
+    
+    100% {
+    color: #F76FC1;
+    }
+  }
